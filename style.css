@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+}
+h1{
+    color: white;
+    text-align: center;
+    position:absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.num{
+    background: rgb(91, 147, 19);
+    border: none;
+    border-radius: 5px;
+    box-shadow: #f3ec78;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 50px;
+    width: 50px;
+}
+.num:hover{
+    background: #f3ec78;
+    color: #af4261;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.num:active{
+    background: #af4261;
+    color: white;
+}
+
+.calculator{
+    border : 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#display{
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color:green
+}
+
+#equals{
+    background: rgb(241, 32, 4);
+    border: none;
+    border-radius: 5px;
+    box-shadow: #f3ec78;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 50px;
+    width: 50px;
+}
+
+#equals:hover{
+    background: #f3ec78;
+    color: #af4261;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+#clear{
+    background: rgb(241, 32, 4);
+    border: none;
+    border-radius: 5px;
+    box-shadow: #f3ec78;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 50px;
+    width: 100%;
+}
+
+#clear:hover{
+    background: #f3ec78;
+    color: #af4261;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
