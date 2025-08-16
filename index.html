@@ -9,14 +9,15 @@
     <body>
         <h1>Simple Calculator</h1>
         <div class = "calculator">
-            <input type="text" id="display" placeholder="Enter expression">
+            <input type="text" id="display" placeholder="0" readonly>
 
             <div id = "first row">
                 <button class="num" value="1">1</button>
                 <button class="num" value="2">2</button>
                 <button class="num" value="3">3</button>
-                <button class="num" value="+">+</button>
+                <button id="equals" value="=">=</button>
 
+                
                 
             </div>
 
@@ -39,11 +40,15 @@
             <div id = "fourth row">
                 <button class="num" value="%">%</button>
                 <button class="num" value="0">0</button>
-                <button id="equals" value="=">=</button>
+                <button class="num" value="+">+</button>
+
                 <button class="num" value="/">/</button>
             </div>
             <div id = "fifth row">
-                <button id="clear">CLEAR</button>
+                
+                <button id = "clear" >CLEAR</button>
+                <button class="num" value=".">.</button>
+                <button id = "ans" value = "0">Ans</button>
             </div>
 
         </div>
